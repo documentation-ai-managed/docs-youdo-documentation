@@ -1,0 +1,82 @@
+{
+  "name": "Youdo Documentation",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#fbd95b"
+    },
+    "dark": {
+      "brand": "#fbd95b"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "home"
+              },
+              {
+                "title": "Getting Started",
+                "path": "getting-started",
+                "icon": "play"
+              }
+            ]
+          },
+          {
+            "group": "Content Creation",
+            "icon": "edit",
+            "pages": [
+              {
+                "title": "Creating Content",
+                "path": "creating-content",
+                "icon": "file-text"
+              }
+            ]
+          },
+          {
+            "group": "Community",
+            "icon": "users",
+            "pages": [
+              {
+                "title": "Community Features",
+                "path": "community-features",
+                "icon": "message-square"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml",
+            "icon": "terminal"
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
